@@ -7,23 +7,27 @@
 * [Spring tool Suite](https://spring.io/tools) or [Eclipse](https://www.eclipse.org/downloads/packages/release/helios/sr1/eclipse-ide-java-developers)
 * [Apache Maven](https://maven.apache.org/download.cgi)
 * [Git Bash](https://gramfile.com/git-bash-download/)
-* [MySQL](https://dev.mysql.com/downloads/mysql/) - Download the Community Edition. If it is a problem then you can download another one as provided below
-* [SQLYog](https://sqlyog.en.softonic.com/) - SQLYog. You can use this as replacement of MySQL
-* [Postman](https://www.postman.com/downloads/)
+* [Erlang](https://www.erlang.org/downloads)
+* [Rabbit MQ](https://www.rabbitmq.com/install-windows.html#installer)
 
-### Steps to execute the DB Scripts
-Run the below scripts in any of the software either in MySQL Workbench or in SQLYog
 
-* create_database.sql - It will create the database named as <strong>spring</strong>
-* drop_database.sql - It will delete the database <strong>spring</strong> 
+### Steps to install Erlang
+* Go to Erland Download Page as mentioned above
+* Click on the OTP 24.0 Windows 32-bit/64-bit Binary File (Based on the bit of your operating system click the desired link)
+* It will download the exe file
+* Double click on the exe file
+* It will start installing on your local machine in default (Program Files) folder location
+* After successful installation set the PATH variables
+* Open the Environment Variables from Advance System Settings
+* Click on Add
+* Set the Name as `ERLANG_HOME`
+* Set the Value as `C:\Program Files\erl-24.0`
+* After that modify the `PATH` variable and put the value as `%ERLANG_HOME%\bin\`
+* To verify open `cmd` and run the command as `erl -version`. It will output the version of installed Erlang in your local machine
 
-But don't run it before the create_database.sql, otherwise it will throw the error stating `No database is present with this name`
+### Steps to install Rabbit MQ
+* Download the .exe file from the Page as mentioned above in the [Software Required] section
 
-* create_table.sql - It will create the table <strong>User</strong> under <strong>spring</strong> schema
-
-But though it is not required to execute, because when you run the application as Spring Boot and try to call the <strong>POST</strong> method it will automatically create the table <strong>User</strong> under <strong>spring</strong> database
-
-* drop_table.sql - To delete the <strong>User</strong> table
 
 ### Steps to clone and run the application
 * Install MySQL. Complete installation steps of [MySQL Workbench](https://dev.mysql.com/downloads/mysql/) are provided
