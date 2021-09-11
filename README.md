@@ -39,7 +39,7 @@
 
 ### Steps to clone and run the application
 * Install [Erlang](https://github.com/c86amik/spring-rabbitmq-producer-masterclass#steps-to-install-erlang)
-* Install [RabbitMQ](https://github.com/c86amik/spring-rabbitmq-producer-masterclass#steps-to-install-rabbit-mq)
+* Install [RabbitMQ](https://github.com/c86amik/spring-rabbitmq-producer-masterclass#steps-to-install-rabbitmq)
 * Open Git Bash or even you can open Command Prompt (if you are using Windows) or Terminal (if you are using MAC) in your machine
 * Clone the application from github.com as   
 <code>git clone https://github.com/c86amik/spring-rabbitmq-producer-masterclass.git</code>
