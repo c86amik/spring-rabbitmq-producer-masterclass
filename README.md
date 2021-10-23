@@ -12,7 +12,7 @@
 
 
 ### Steps to install Erlang
-* Go to Erlang Download Page as mentioned above
+* Go to [Erlang Download Page](https://www.erlang.org/downloads)
 * Click on the OTP 24.0 Windows 32-bit/64-bit Binary File (Based on the bit of your operating system click the desired link)
 * It will download the exe file
 * Double click on the exe file
@@ -26,7 +26,7 @@
 * To verify open `cmd` and run the command as `erl -version`. It will output the version of installed Erlang in your local machine
 
 ### Steps to install RabbitMQ
-* Download the .exe file from the Page as mentioned above in the [Software Required](https://github.com/c86amik/spring-rabbitmq-producer-masterclass#software-required) section
+* Download the .exe file from the [RabbitMQ Official Page](https://www.rabbitmq.com/install-windows.html#installer)
 * Install the exe file in your local machine
 * The above installation will also install the RabbitMQ Command Prompt
 * Open the RabbitMQ Command Prompt
