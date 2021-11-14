@@ -28,15 +28,15 @@ public class RabbitMQConfig {
 	private static final Logger LOGGER = LoggerFactory.getLogger(RabbitMQConfig.class);
 
 	@Value("${rabbit.mq.queue.name}")
-    String queueName;
+    private String queueName;
     @Value("${rabbit.mq.exchange}")
-    String exchange;
+    private String exchange;
     @Value("${rabbit.mq.routing.key}")
     private String routingKey;
     
     @Bean
     Queue queue() {
-        return new Queue(queueName, false);
+        return new Queue(queueName, true);
     }
 
     @Bean
