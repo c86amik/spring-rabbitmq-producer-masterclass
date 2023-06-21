@@ -46,7 +46,7 @@
 * Open either <strong>STS</strong> or <strong>Eclipse</strong> and import the application as <strong>Maven</strong> project
 * After the application got successfully imported in either <strong>STS</strong> or <strong>Eclipse</strong>
 * Right Click on the application, select the <strong>Run As</strong> option, and then select <strong>Spring Boot App</strong>
-* The application will start in the port <strong>7113</strong>
+* The application will start in the port <strong>7114</strong>
 
 ### Testing
 * Once the application started it will publish 5 messages in the Queue
